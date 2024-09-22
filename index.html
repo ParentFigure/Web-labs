@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabWork1-V1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header">
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img src="images/menu-icon.png" alt="Menu icon">
+                </div>
+                <div class="header__title">Landie</div>
+                <div class="navigation-items">
+                    <nav id="nav-links" class="header__nav">
+                        <ul>
+                            <li class="header__nav-item"><a href="">Home</a></li>
+                            <li class="header__nav-item"><a href="">About</a></li>
+                            <li class="header__nav-item"><a href="">Pricing</a></li>
+                        </ul> 
+                    </nav>
+                    <div class="header__button">
+                        <button class="header__learn-more">Learn More</button>
+                        <button class="header__buy-now">Buy Now</button>
+                    </div>
+                </div>   
+            </header>
+        </div>
+        <div class="container-hero">
+            <div class="hero__inner">
+                <h1 class="hero__title">Introduce Your Product Quickly & Effectively</h1>
+                <p class="hero__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                <p class="hero__paragraph">mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+            <div class="hero__article-box">
+                <article class="hero__article">
+                    <img  src="images/Icon.png" alt="">
+                    <h2 class="hero__2title">Title Goes Here</h2>
+                    <p class="hero__2paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </article>
+                <article class="hero__article">
+                    <img  src="images/Icon.png" alt="">
+                    <h2 class="hero__2title">Title Goes Here</h2>
+                    <p class="hero__2paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="description">
+        <div class="container">
+            <div class="pros">
+                <h1 class="default-title">Light, Fast & Powerful</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+            </div>
+            <div class="article-box">
+                <article class="pros-article">
+                    <img src="images/Icon.png" alt="">
+                    <h2 class="default__article-title">Title Goes Here</h2>
+                    <p class="default-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+                </article>
+                <article class="pros-article">
+                    <img src="images/Icon.png" alt="">
+                    <h2 class="default__article-title">Title Goes Here</h2>
+                    <p class="default-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolo</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="main-titlebox">
+                <h1 class="default-title">A Price To Suit Everyone</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+            </div>
+            <div class="payment__boxes">
+                <div class="payment__box">
+                    <h1 class="payment__title">FREE</h1>
+                    <h2 class="payment__article-title">UI Kit Demo</h2>
+                    <p class="payment__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                    <p class="payment__paragraph" id="lower-price-p">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                    <button class="payment__button">Purchase Now</button>
+                </div>
+                <div class="payment__box">
+                    <h1 class="payment__title">$40</h1>
+                    <h2 class="payment__article-title">Design Kit</h2>
+                    <p class="payment__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                    <p class="payment__paragraph" id="lower-price-p">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                    <button class="payment__button">Purchase Design Kit</button>
+                </div>
+                <div class="payment__box">
+                    <h1 class="payment__title">$75</h1>
+                    <h2 class="payment__article-title">Design & Code Package</h2>
+                    <p class="payment__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                    <p class="payment__paragraph" id="lower-price-p">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                    <button class="payment__button">Purchase Package</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__intro">
+                <div class="lpnu">©2020 LPNU</div>
+                <div class="footer__title">Landie</div>
+            </div>
+            <div class="line__under-intro"></div>
+            <div class="footer__button">
+                <button class="default-button" id="iot-edition">IoT Edition</button>
+            </div>
+            <div class="footer__nav-items">
+                <nav class="footer__nav">
+                    <ul>
+                        <li class="footer__nav-item"><a class="footer-nav-text">Home</a></li>
+                        <li class="footer__nav-item"><a class="footer-nav-text">About</a></li>
+                        <li class="footer__nav-item"><a class="footer-nav-text">Contact</a></li>
+                    </ul> 
+                </nav>
+            </div>
+            <div class="footer__socials">
+                <a href=""><img src="images/facebook.png" alt="" class="footer-img"></a>
+                <a href=""><img src="images/in.png" alt="" class="footer-img"></a>
+                <a href=""><img src="images/twitter.png" alt="" class="footer-img"></a>
+                <a href=""><img src="images/youtube.png" alt="" class="footer-img"></a>
+                <a href=""><img src="images/Instagram.png" alt="" class="footer-img"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

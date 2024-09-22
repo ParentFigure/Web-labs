@@ -1,0 +1,33 @@
+.hero {
+    background-image: url('images/Image.png');
+    background-repeat: no-repeat;
+    background-position: 1100px 200px;
+}
+
+.hero__inner {
+    max-width: 540px;
+    padding-top: 140px;
+    padding-bottom: 45px;
+}
+.hero__title {
+    color: #091133;
+    line-height: 48px;
+    font-size: 36px;
+    font-weight: 500;
+} 
+.hero__article-box {
+    display: flex;
+    padding-bottom: 140px;
+}
+.hero__article {
+    max-width: 255px;
+    margin-right: 30px;
+}
+.hero__2paragraph {
+    line-height: 18px;
+    font-size: 12px;
+    color: #5D6970;
+}
+.hero__2title {
+    color: #091133;
+}

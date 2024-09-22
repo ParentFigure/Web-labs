@@ -1,0 +1,66 @@
+.footer {
+    background-color: #E7ECFF;
+}
+.footer__intro {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-bottom: 57.6px;
+}
+.lpnu {
+    color: #939EA4;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+.footer__title {
+    font-size: 26px;
+    font-weight: 900;
+    color: #37447E;
+    animation: grad 5s ease-in-out infinite;
+}
+.line__under-intro {
+    max-width: 1110px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #CDD1D4;
+}
+.footer__button {
+    padding-top: 21.35px;
+    padding-bottom: 17.88px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+#iot-edition {
+    max-width: 109px;
+    max-height: 26.12px;
+}
+.footer__nav {
+    display: flex;
+    
+}
+.footer__nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25.8px;
+}
+.footer__nav ul {
+    display: flex;
+}
+.footer__nav-text {
+    color: #929ECC;
+}
+.footer__nav-item {
+    margin-right: 60px;
+    font-size: 14px;
+}
+.footer__socials {
+    display: flex;
+    justify-content: center;
+}
+.footer-img {
+    margin-right: 30px;
+    padding-bottom: 30.9px;
+}

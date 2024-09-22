@@ -1,0 +1,22 @@
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes grad {
+    0% {
+        color: #37447E;
+    }
+    50% {
+        color: #0d101c00;
+    }
+    100% {
+        color: #37447E;
+    }
+}
