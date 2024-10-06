@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Clips</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        /* Basic styling for better readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+            margin-top: 10px;
+        }
+        input, select, button {
+            margin-top: 10px;
+        }
+        .clip {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #modal {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #444;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            display: none;
+            z-index: 1000;
+        }
+        #modalOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Clips</h1>
+
+    <!-- Search and Sort Controls -->
+    <div>
+        <input type="text" id="search" placeholder="Search by artist or song">
+        <button id="sortViews">Sort by Views</button>
+        <button id="sortLength">Sort by Length</button>
+        <button id="totalViews">Total Views</button>
+    </div>
+
+    <!-- Clips List -->
+    <div id="clipsList"></div>
+    <div id="total"></div>
+
+    <!-- Create New Clip Form -->
+    <h2>Create New Music Clip</h2>
+    <form id="createForm">
+        <label for="artist">Artist Name:</label>
+        <input type="text" id="artist" name="artist" required><br>
+
+        <label for="song">Song Name:</label>
+        <input type="text" id="song" name="song" required><br>
+
+        <label for="length">Length (seconds):</label>
+        <input type="number" id="length" name="length" min="1" required><br>
+
+        <label for="views">Views:</label>
+        <input type="number" id="views" name="views" min="0" required><br>
+
+        <button type="submit">Create</button>
+    </form>
+
+    <!-- Edit Clip Form -->
+    <h2>Edit Music Clip</h2>
+    <form id="editForm">
+        <label for="editSelect">Select Clip to Edit:</label>
+        <select id="editSelect" required>
+            <!-- Options will be populated dynamically -->
+        </select><br>
+
+        <label for="editArtist">Artist Name:</label>
+        <input type="text" id="editArtist" name="editArtist" required><br>
+
+        <label for="editSong">Song Name:</label>
+        <input type="text" id="editSong" name="editSong" required><br>
+
+        <label for="editLength">Length (seconds):</label>
+        <input type="number" id="editLength" name="editLength" min="1" required><br>
+
+        <label for="editViews">Views:</label>
+        <input type="number" id="editViews" name="editViews" min="0" required><br>
+
+        <button type="submit">Edit</button>
+    </form>
+
+    <!-- Modal for Validation Feedback -->
+    <div id="modalOverlay"></div>
+    <div id="modal">
+        <p id="modalText"></p>
+        <button id="closeModal">Close</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
