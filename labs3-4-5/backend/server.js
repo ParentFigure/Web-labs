@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 // MongoDB Atlas connection
-const uri = 'mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://marmat:123@cluster0.mongodb.net/mydb?retryWrites=true&w=majority';
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
