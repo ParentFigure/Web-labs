@@ -1,0 +1,136 @@
+.main-catalog {
+    background-color: rgb(25, 22, 69);
+}
+.home-title {
+    color: #383333;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.items-container {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.album-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: black;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.album-container:hover {
+    transform: translateY(-10px); 
+}
+
+.album-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+/* .album-container:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+} */
+
+.title-album {
+    line-height: 1.5;
+    /* font-family: Arial, sans-serif; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description-album {
+    text-align: left;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: .900rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.txt-price {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-album {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.view-btn {
+    width: 120px;
+    height: 60px;
+    color: #5e69b0;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #635eb0;
+    background-color: white;
+    display: block;
+    margin: 0 auto 60px auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.view-btn:hover {
+    background-color: #5e5eb0;
+    color: white;
+    cursor: pointer;
+}
+
+.view-more-btn {
+    width: 120px;
+    height: 30px;
+    color: #03009e;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #0a0094;
+    background-color: white;
+    display: block;
+    margin: 0 auto 16px auto;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.view-more-btn:hover {
+    background-color:#16255b;
+    color: white;
+    cursor: pointer;
+}
