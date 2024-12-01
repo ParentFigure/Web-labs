@@ -1,0 +1,76 @@
+.item-decriptions {
+    font-size: x-large;
+    display: flex;
+    margin: 20px 70px 0 70px;
+    color: #FFF;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+    font-style: normal;
+}
+.item-img {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.back-btn {
+    width: 160px;
+    height: 60px;
+    color: #080359;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #000a54;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.add-btn {
+    width: 160px;
+    height: 60px;
+    color: white;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: #080e4b;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item-price {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFF;
+    font-family: "Permanent Marker", cursive;
+}
+
+.item-description {
+    width: 550px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.item-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 70px 50px 70px;
+}
+
+.item-selects {
+    display: flex;
+}
+.item-select {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.label {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}

@@ -1,0 +1,90 @@
+.checkout-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+}
+label {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    color: #FFF;
+}
+.field-first-name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+}
+
+.field-last-name {
+    display: flex;
+    flex-direction: column;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+}
+
+.fields-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+}
+
+.fields-email-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+}
+
+.field-email {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.field-phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 100;
+}
+
+.input-first-name {
+    width: 225px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 15px;
+    border-width: 0.6px;
+    margin-top: 3px;
+}
+
+.input-adress {
+    width: 506px;
+    height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 15px;
+    border-width: 0.6px;
+    margin-top: 3px;
+}
+
+.label-adress {
+    margin-right: 472px;
+}

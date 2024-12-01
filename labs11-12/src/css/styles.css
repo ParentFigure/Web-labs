@@ -1,0 +1,37 @@
+@import "./navigation.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./catalog.css";
+@import "./filter.css";
+@import "./item.css";
+@import "./loader.css";
+@import "./cart.css";
+@import "./checkout.css";
+@import "./success.css";
+@import "./signup.css";
+
+.error-message {
+    width: 225px;
+    height: 50px;
+    background-color: rgba(255, 93, 93, 0.89);
+    color: rgb(107, 2, 0);
+    font-size: 14px;
+    margin-top: 0.1rem;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-radius: 1px;
+}
+
+.signup-error {
+    width: 205px;
+    height: 16px;
+    background-color: rgba(255, 138, 138, 0.89);
+    color: rgb(110, 2, 0);
+    font-size: 12px;
+    margin-top: -0.5rem;
+    padding-left: 3px;
+    padding-top: 2px;
+    border-radius: 3px;
+    margin-left: 45px;
+    margin-bottom: 0.1rem;
+}
